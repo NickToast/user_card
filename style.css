@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    /* height: 300px; */
+    margin: 0 auto;
+    /* outline: 2px solid grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    height: 75%;
+    width: 100%;
+    background-color: white;
+    border: 2px solid #afafaf;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-content: center; */
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.top-half {
+    height: 125px;
+    background-color: rgb(23, 162, 184);
+    margin-bottom: 70px;
+}
+
+.text {
+    padding: 20px;
+}
+
+.text h1,
+.text h3,
+.text p {
+    margin: 15px 0px;
+}
+
+.pfp {
+    border-radius: 50%;
+    height: 200px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: white;
+}
+
+.mapmarker {
+    height: 15px;
+}
+
+/* .editprofile {
+    padding-left: 40px;
+} */
+
+
+.gear {
+    height: 15px;
+}
